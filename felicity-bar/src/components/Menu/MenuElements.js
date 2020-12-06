@@ -1,7 +1,7 @@
 import styled from "styled-components";
-import bgImg from "../../images/food-dark.jpg";
+import bgImg from "../../images/food-2.jpg";
 
-export const HeroContainer = styled.div`
+export const MenuContainer = styled.div`
   background-color: #222;
   background: url(${bgImg}) no-repeat right top;
   background-position: center;
@@ -9,9 +9,10 @@ export const HeroContainer = styled.div`
   height: 100vh;
   max-height: 100%;
   padding: 0 0 10vh 0;
+  
 `;
 
-export const HeroContent = styled.div`
+export const MenuContent = styled.div`
   height: 100vh;
   max-height: 100%;
   width: 100vw;
@@ -19,7 +20,7 @@ export const HeroContent = styled.div`
   margin: auto;
 `;
 
-export const HeroItems = styled.div`
+export const MenuItems = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -36,28 +37,27 @@ export const HeroItems = styled.div`
   }
 `;
 
-export const HeroH1 = styled.h1`
+export const MenuH1 = styled.h1`
   font-size: clamp(3rem, 10vw, 5rem);
   margin-bottom: 2rem;
   padding-left: 1.5rem;
   border-left: 3px solid red;
   border-bottom: 3px solid red;
+`;
+
+export const MenuP = styled.p`
+  font-size: clamp(1.5rem, 2.5vw, 2.5rem);
+  margin-bottom: 2rem;
   letter-spacing: 2px;
 `;
 
-export const HeroP = styled.p`
-  font-size: clamp(1.5rem, 2.5vw, 2.5rem);
-  margin-bottom: 2rem;
-  letter-spacing: 1px;
-`;
-
-export const HeroTitleP = styled.p`
+export const MenuTitleP = styled.p`
   font-size: clamp(1.15rem, 2.5vw, 1.25rem);
-  padding: 0 0.5rem;
-  letter-spacing: 1px;
+  padding: 0 .5rem;
+  letter-spacing: 2px;
 `;
 
-export const HeroBtn = styled.button`
+export const MenuBtn = styled.button`
   font-size: 1.25rem;
   padding: 1rem 3rem;
   background-color: red;

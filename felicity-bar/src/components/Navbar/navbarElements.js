@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { NavLink as Link } from "react-router-dom";
-import { FaDrumstickBite } from "react-icons/fa";
+import { FaPhoneAlt } from "react-icons/fa";
 import Logo from "../../images/logo.jpg";
 
 export const Nav = styled.nav`
@@ -19,7 +19,7 @@ export const NavHeader = styled.nav`
   align-items: center;
 
   @media screen and (max-width: 420px) {
-    font-size: .85rem;
+    font-size: 0.85rem;
   }
 `;
 
@@ -59,7 +59,7 @@ export const NavIcon = styled.div`
   cursor: pointer;
 `;
 
-export const NavHamburger = styled(FaDrumstickBite)`
+export const NavHamburger = styled(FaPhoneAlt)`
   height: 1.5em;
   width: auto;
   display: flex;
@@ -67,10 +67,11 @@ export const NavHamburger = styled(FaDrumstickBite)`
   position: absolute;
   top: 4vh;
   right: 3vh;
-  
+  color: #fff;
+
   &:hover {
     cursor: pointer;
-    font-size: 2rem;
+    font-size: 1.5rem;
     transition: 0.2s ease-out;
   }
 `;
