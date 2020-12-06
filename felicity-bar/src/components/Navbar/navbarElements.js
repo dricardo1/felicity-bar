@@ -72,7 +72,7 @@ export const NavHamburger = styled(FaPhoneAlt)`
 
   &:hover {
     cursor: pointer;
-    font-size: 1.5em;
+    font-size: 1.25em;
     transition: 0.2s ease-out;
   }
 `;
