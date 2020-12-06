@@ -4,25 +4,36 @@ import {
   FooterContainer,
   FooterWrapper,
   SocialIcons,
+  SocialIconLink,
   SocialLogo,
   SocialMedia,
   SocialMediaWrapper,
+  FooterP,
 } from "./footerElements.js";
+
 const Footer = () => {
   return (
     <FooterContainer>
       <FooterWrapper>
         <SocialMedia>
           <SocialMediaWrapper>
-            <SocialLogo to="/">Felicity Bar & Grill</SocialLogo>
+            <SocialLogo to="/">&copy; 2020 Felicity Bar & Grill</SocialLogo>
+            <FooterP>
+              <a href="https://bit.ly/donar-dev" target="_blank">
+                Powered By Donar Development, LLC
+              </a>
+            </FooterP>
             <SocialIcons>
               <SocialIconLink
-                to="/"
+                to="https://bit.ly/felicity-bar-fb"
                 target="_blank"
                 aria-label="Facebook"
                 rel="noopener noreferrer"
               >
-                <FaFacebook />
+                {" "}
+                <a href="https://bit.ly/felicity-bar-fb" target="_blank">
+                  <FaFacebook />
+                </a>
               </SocialIconLink>
               <SocialIconLink
                 to="/"

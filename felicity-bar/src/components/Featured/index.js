@@ -13,8 +13,8 @@ const Featured = () => {
     <FeaturedContainer>
       <FeaturedContent />
       <FeaturedDancing />
-      <FeaturedDining />
       <FeaturedFood />
+      <FeaturedDining />
       <FeaturedHour />
     </FeaturedContainer>
   );

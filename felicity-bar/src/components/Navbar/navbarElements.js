@@ -61,7 +61,7 @@ export const NavIcon = styled.div`
 `;
 
 export const NavHamburger = styled(FaPhoneAlt)`
-  height: 1.5em;
+  height: 1.25em;
   width: auto;
   display: flex;
   flex-grow: 1;
@@ -72,7 +72,7 @@ export const NavHamburger = styled(FaPhoneAlt)`
 
   &:hover {
     cursor: pointer;
-    font-size: 1.5rem;
+    font-size: 1.5em;
     transition: 0.2s ease-out;
   }
 `;
