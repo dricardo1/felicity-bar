@@ -14,9 +14,10 @@ const Navbar = () => {
       <NavHeader>
         <h1>Felicity Bar & Grill</h1>
       </NavHeader>
-      <NavLink to="#">
-      </NavLink>
-      <a href="tel:803-851-4597"><NavHamburger className="pulse"></NavHamburger></a>
+      <NavLink to="#"></NavLink>
+      <a href="tel:803-851-4597">
+        <NavHamburger className="pulse"></NavHamburger>
+      </a>
     </Nav>
   );
 };

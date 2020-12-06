@@ -8,7 +8,7 @@ export const HeroContainer = styled.div`
   background-size: cover;
   height: 100vh;
   max-height: 100%;
-  padding: 0 0 10vh 0;
+  padding: 0 2vh 10vh 2vh;
 `;
 
 export const HeroContent = styled.div`

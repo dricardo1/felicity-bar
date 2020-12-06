@@ -17,7 +17,7 @@ const Hero = () => {
       <HeroContent>
         <HeroItems>
           <HeroTitleP>Welcome to Columbia's Famous</HeroTitleP>
-          <HeroH1 className="fade-in" >Felicity Bar & Grill</HeroH1>
+          <HeroH1 className="fade-in">Felicity Bar & Grill</HeroH1>
           <HeroP className="fade-in-p">
             Chef Ben will keep you coming back for his wings, burgers, seafood,
             pizzas, dinners & more!

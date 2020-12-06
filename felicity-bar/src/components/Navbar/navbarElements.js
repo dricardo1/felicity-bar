@@ -17,6 +17,7 @@ export const NavHeader = styled.nav`
   font-size: 1.5rem;
   display: flex;
   align-items: center;
+  letter-spacing: 1px;
 
   @media screen and (max-width: 420px) {
     font-size: 0.85rem;

@@ -1,14 +1,23 @@
-import React from 'react'
-import { FeaturedContainer, FeaturedContent, FeaturedDancing, FeaturedHour} from './featuredElements.js'
+import React from "react";
+import {
+  FeaturedContainer,
+  FeaturedContent,
+  FeaturedDancing,
+  FeaturedHour,
+  FeaturedDining,
+  FeaturedFood,
+} from "./featuredElements.js";
 
 const Featured = () => {
-    return (
-        <FeaturedContainer>
-            <FeaturedContent />
-            <FeaturedDancing />
-            <FeaturedHour />
-        </FeaturedContainer>          
-    )
-}
+  return (
+    <FeaturedContainer>
+      <FeaturedContent />
+      <FeaturedDancing />
+      <FeaturedDining />
+      <FeaturedFood />
+      <FeaturedHour />
+    </FeaturedContainer>
+  );
+};
 
-export default Featured
+export default Featured;

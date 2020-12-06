@@ -8,8 +8,7 @@ export const MenuContainer = styled.div`
   background-size: cover;
   height: 100vh;
   max-height: 100%;
-  padding: 0 0 10vh 0;
-  
+  padding: 0 2vh 10vh 2vh;
 `;
 
 export const MenuContent = styled.div`
@@ -43,18 +42,19 @@ export const MenuH1 = styled.h1`
   padding-left: 1.5rem;
   border-left: 3px solid red;
   border-bottom: 3px solid red;
+  letter-spacing: 2px;
 `;
 
 export const MenuP = styled.p`
   font-size: clamp(1.5rem, 2.5vw, 2.5rem);
   margin-bottom: 2rem;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 `;
 
 export const MenuTitleP = styled.p`
   font-size: clamp(1.15rem, 2.5vw, 1.25rem);
-  padding: 0 .5rem;
-  letter-spacing: 2px;
+  padding: 0 0.5rem;
+  letter-spacing: 1px;
 `;
 
 export const MenuBtn = styled.button`
