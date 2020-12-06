@@ -61,7 +61,7 @@ export const NavIcon = styled.div`
 `;
 
 export const NavHamburger = styled(FaPhoneAlt)`
-  height: 1.25em;
+  height: 1.15em;
   width: auto;
   display: flex;
   flex-grow: 1;
