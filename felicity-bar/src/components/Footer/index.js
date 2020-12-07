@@ -19,7 +19,7 @@ const Footer = () => {
           <SocialMediaWrapper>
             <SocialLogo to="/">&copy; 2020 Felicity Bar & Grill</SocialLogo>
             <FooterP>
-              <a href="https://bit.ly/donar-dev" target="_blank">
+              <a href="https://bit.ly/donar-dev">
                 Powered By Donar Development, LLC
               </a>
             </FooterP>
@@ -31,7 +31,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
               >
                 {" "}
-                <a href="https://bit.ly/felicity-bar-fb" target="_blank">
+                <a href="https://bit.ly/felicity-bar-fb">
                   <FaFacebook />
                 </a>
               </SocialIconLink>
