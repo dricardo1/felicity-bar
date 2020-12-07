@@ -10,12 +10,15 @@ export const GlobalStyle = createGlobalStyle`
 
 html {
     scroll-behavior: smooth;
+    width: 100vw;
+    overflow-x: hidden;
 }
 
 body {
     font-family: 'Lato', 'Verdana', 'Arial', sans-serif;
     background-color: #000;
 }
+
 
 h1, h2 h3, h4, h5 {
     font-family: 'Ultra', 'Georgia', serif;

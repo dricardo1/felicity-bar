@@ -56,18 +56,28 @@ export const SocialLogo = styled(Link)`
   text-decoration: none;
   color: #fff;
   font-family: "Ultra", serif;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: normal;
   letter-spacing: 1px;
   cursor: pointer;
   padding-left: 1vw;
   margin: 0 0 1rem 2rem;
+
+  @media screen and (max-width: 780px) {
+    font-size: 1.1rem;
+  }
 `;
 
 export const FooterP = styled.p`
-  font-size: clamp(1.1rem, 2.5vw, 1.2rem);
+  font-size: clamp(1rem, 2.5vw, 1.1rem);
   margin: 0 0 1rem 0;
+
   letter-spacing: 1px;
   align-items: center;
   text-decoration: none;
+
+  @media screen and (max-width: 780px) {
+    font-size: 1rem;
+    padding-left: 6vw;
+  }
 `;
