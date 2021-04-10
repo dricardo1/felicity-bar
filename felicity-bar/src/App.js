@@ -1,10 +1,10 @@
 import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 import { GlobalStyle } from "./globalStyles";
-import Hero from "./components/Hero";
-import Featured from "./components/Featured";
-import Menu from "./components/Menu";
-import Footer from "./components/Footer";
+import Hero from "./components/Hero/hero";
+import Featured from "./components/Featured/featured";
+import Menu from "./components/Menu/menu";
+import Footer from "./components/Footer/footer";
 
 function App() {
   return (
